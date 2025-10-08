@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-	margin: 3rem 1rem 1rem; /*Three values again. You got the idea.*/
+	margin: 3rem 1rem 2rem; /*Three values again. You got the idea.*/
 	padding-top: 0.5em;
 	font-size: 1.5em;
 	color: #ac312a;
@@ -56,6 +56,6 @@ ul {
 }
 
 li { 
-	margin: 0.6rem 1em;
+	margin: 1rem 1em;
 	list-style-type: none;
 }
