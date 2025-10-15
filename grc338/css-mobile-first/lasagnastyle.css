@@ -1,0 +1,87 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+body {
+    background-color: #fafafa;
+    color: #000000;
+}
+
+header{
+    background-color: #fe8f11;
+}
+
+figcaption{
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    font-size: 1.1em;
+    padding: 1rem 1.5rem 1rem 2rem;
+}
+
+h1 {
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal; 
+    font-size: 2.5em;
+    padding: 2rem 1.5rem 0.5rem 2rem;
+    color:#fafafa
+}
+
+h2 {
+    font-family: Sutro, serif;  
+    font-weight: 400;  
+    font-style: normal;
+    font-size: 1.8em;
+    padding: 0rem 1.5rem 1.5rem 2rem;
+    color: #ffddbb;
+}
+
+h3 {
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+    color: #fe8f11;
+    padding: 1.5rem 1rem 0rem 2rem;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+p {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+ol {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+ul {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    padding-left: 1em;
+}
+
+li{
+    margin: 1em 1em;
+}
+
+footer{
+    background-color: #fe8f11;
+    color:#fafafa;
+    padding: 1.8rem 1.5rem 1.5rem 2rem;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
