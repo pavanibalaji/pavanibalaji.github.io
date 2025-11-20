@@ -47,9 +47,10 @@ article {
 
 header {
 	display:grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 4fr;
 	background: #cccccc;
 	padding: 1rem 1rem;
+	align-items: center;
 	}
 
 h1 {
@@ -99,7 +100,7 @@ main.menu ul {
 main.menu ul li {
 		margin: 1rem 0rem 1.5rem;
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: auto auto;
 }	
 
@@ -123,13 +124,14 @@ p.price {
 nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-bottom: 1em;
+	margin-bottom: 1.4rem;
 	}
 	
 nav ul li a {
 	color: #ffff00;
 	background-color: #0000ff;
-	padding: 0.4rem 0.5rem 0.4rem;
+	padding: 0.5rem 0.6rem 0.5rem;
+	font-size: 1.4em;
 	}
 	
 
